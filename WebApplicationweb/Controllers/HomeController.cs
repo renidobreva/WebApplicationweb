@@ -10,7 +10,7 @@ namespace WebApplicationweb.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+            _logger = logger; //нещо си 
         }
 
         public IActionResult Index()
